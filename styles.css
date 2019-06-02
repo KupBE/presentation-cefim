@@ -16,7 +16,7 @@ body {
 }
 body.page_accueil {
    /*background-color: #f7efd7;*/
-	background: url("img/paper.jpg") no-repeat fixed top center;
+	background: url("img/fresno.jpg") no-repeat fixed top center;
 	background-size: 100% 100%;
 }
 p {
