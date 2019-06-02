@@ -1,0 +1,65 @@
+.header{
+	top: 0;
+	background: #000;
+	height: 100%;
+	background-attachement: fixed;
+	text-align:center;
+	width: 100px;}
+
+.menu {
+	position : absolute;
+	top : 0px;
+	left : 0px;
+	margin-bottom:15px;
+	/*background : white;*/
+	width : 100%;
+  	text-align: center;
+  /*background-color: #f97300;*/
+}
+
+/**/
+
+body {
+	margin : 0px;
+	padding : 0px;
+  text-align: center;
+  background-color: #f0e8c5;
+}
+
+div {
+  margin-top: 15px;
+}
+
+.presentation {
+  margin-right: 120px;
+  margin-left: 120px;
+  border-radius : 20px 20px 20px 20px;
+  background-color: #fff0b4;
+}
+
+
+.parcours {
+  margin-right: 25px;
+  margin-left: 25px;
+  border-radius : 10px 5px 20px;
+  border-style : double;
+  background-color: #ffe79c;  
+}
+
+.image-section {
+  display: flex;
+  justify-content: center;
+}
+
+.section-style {
+  margin-right: 25px;
+  margin-left: 25px;
+  background-color: #f97300;
+}
+
+footer {
+    clear: both;
+    position: relative;
+    height: 40px;
+    margin-top: -40px;
+}
