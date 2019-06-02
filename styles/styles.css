@@ -17,3 +17,10 @@ div {
   margin-left: 25px;
   background-color: white;
 }
+
+footer {
+    clear: both;
+    position: relative;
+    height: 40px;
+    margin-top: -40px;
+}
