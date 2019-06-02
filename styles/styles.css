@@ -1,14 +1,14 @@
 .menu {
   position: fixed;
   left: 0px;
-  top: -10px;
+  top: -1px;
   width: 100%;
-  margin-top: -2.5em;
   text-align: center;
   background-color: #f97300;
 }
 
 body {
+  top: 20px;
   text-align: center;
   background-color: #f0e8c5;
 }
