@@ -1,9 +1,16 @@
+#header{
+	top: 0;
+	background: #000;
+	height: 100%;
+	background-attachement: fixed;
+	width: 100px;}
+
 .menu {
 	position : absolute;
 	top : 0px;
 	left : 0px;
 	margin-bottom:15px;
-	background : white;
+	/*background : white;*/
 	width : 100%;
   	text-align: center;
   /*background-color: #f97300;*/
