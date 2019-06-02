@@ -1,6 +1,7 @@
 .menu {
-	line-height : 20pt;
-	position : fixed;
+	position : absolute;
+	top : 0px;
+	left : 0px;
 	background : white;
 	width : 100%;
   text-align: center;
