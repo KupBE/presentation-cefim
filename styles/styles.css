@@ -1,8 +1,12 @@
-body {
+.top {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  width: 8em;
+  margin-top: -2.5em;
   text-align: center;
-  background-color: #f0e8c5;
+  background-color: #f97300;
 }
-
 
 body {
   text-align: center;
