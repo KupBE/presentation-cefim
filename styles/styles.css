@@ -16,12 +16,16 @@ div {
 .presentation {
   margin-right: 25px;
   margin-left: 25px;
+  background-color: #ffe79c;
 }
 
 
 .parcours {
   margin-right: 25px;
   margin-left: 25px;
+  border-radius : 10px 5px 20px;
+  border-style : double;
+  background-color: #ffe79c;  
 }
 
 .image-section {
@@ -32,7 +36,7 @@ div {
 .section-style {
   margin-right: 25px;
   margin-left: 25px;
-  background-color: green;
+  background-color: #f97300;
 }
 
 footer {
