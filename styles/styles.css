@@ -2,9 +2,10 @@
 	position : absolute;
 	top : 0px;
 	left : 0px;
+	margin-bottom:15px;
 	background : white;
 	width : 100%;
-  text-align: center;
+  	text-align: center;
   /*background-color: #f97300;*/
 }
 
