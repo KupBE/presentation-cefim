@@ -3,11 +3,23 @@ body {
   background-color: #f0e8c5;
 }
 
+
+body {
+  text-align: center;
+  background-color: #f0e8c5;
+}
+
 div {
   margin-top: 15px;
 }
 
 .presentation {
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+
+.parcours {
   margin-right: 25px;
   margin-left: 25px;
 }
