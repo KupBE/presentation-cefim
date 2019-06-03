@@ -6,7 +6,7 @@
 	left: 0;
 	right: 0;
     top: 0;
-	margin: 0;
+	 margin: 0;
     width: 100%;
     height: auto;
     font-size: 16px;
@@ -72,19 +72,19 @@
     text-align: center;
 	border-radius: 1em;
 }
-.main1 {
+.presentation {
 	position: center;
     width: auto;
     height: auto;
     font-size: 18;
     background-color: #f7efd7;
-    padding: 0;
+    padding: 1em;
     margin: 0;
     list-style: none;
     text-align: center;
 	 border-radius: 5em;
 }
-.main2 {
+.parcours {
 	position: center;
     width: auto;
     height: auto;
@@ -97,7 +97,19 @@
     text-align: center;
 	/*border-radius: 1em;*/
 }
-.main3 {
+.porque {
+	clear: left;
+    width: auto;
+    height: auto;
+    font-size: 17;
+    background-color: #c9b7be;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+	border-radius: 1em 1em 0 0;
+}
+.fantastic {
 	clear: left;
     width: auto;
     height: auto;
@@ -107,15 +119,15 @@
     margin: 0 auto 0;
     list-style: none;
     text-align: center;
-	border-radius: 1em;
+	border-radius: 0 0 1em 1em;
 }
-.main4 {
+.jeunehobbit {
 	clear: left;
     width: auto;
     height: auto;
     font-size: 18;
     background-color: #e4d4b5;
-    padding: 1% 1%;
+    padding: 1em;
     margin: 0 auto 0;
     list-style: none;
     text-align: center;
@@ -123,24 +135,13 @@
 }
 .historique {
 	float: left;
-	width: 50%;
+	width: 50%
 }
-.sharp {
+.historique2 {
 	float: left;
-	width: 50%;
+	width: 50%
 }
-.amstrad6128 {
-	float: left;
-	width: 50%;
-}
-.amiga500 {
-	float: left;
-	width: 25%;
-}
-.seganes {
-	float: left;
-	width: 25%;
-}
+
 #foot {
 	position: center;
     padding-bottom: 0;
