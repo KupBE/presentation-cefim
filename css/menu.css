@@ -1,0 +1,161 @@
+/* menu.css
+
+*/
+#top_menu {
+	position:fixed;
+	left: 0;
+	right: 0;
+    top: 0;
+	 margin: 0;
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    background-color: #fc7650;
+    padding: 0;
+    list-style: none;
+    text-align: center; 	/* centrer le menu dans la page */
+}
+#top_menu ul {
+	height: auto;
+	padding: 0;
+    margin: 0;
+	border-radius: 1em;
+    list-style: none;
+}
+#top_menu li {
+/* placement liens du menu horizontalement */
+    display: inline-block;
+	padding: 0px;
+	border-radius: 1em;
+	background-color: #fc7650;
+}
+#top_menu ul li {
+/* enl&egrave;vement comportement pour les liens du sous menu */
+    display: inherit;
+}
+#top_menu a {
+    text-decoration: none;
+    display: block;
+	color: #59473d;
+    padding: 8px;
+}
+#top_menu a:hover, li:hover {
+    text-decoration: none;
+    display: block;
+	color: #ffffff;
+    padding: 8px;
+	background-color: #e64318;
+	border-radius: 1em;
+}
+#top_menu ul {
+    position: absolute;
+/* sous menus cach&eacute;s sur la gauche */
+    left: -999em;
+    text-align: left;
+    z-index: 1000;
+}
+#top_menu li:hover ul {
+/* replacement des sous menus au survol des li menu*/
+    left: auto;
+	color: #007f7f;
+    background-color: #fc7650;
+}/*
+.main {
+	position: center;
+    width: auto;
+    height: auto;
+    font-size: 16;
+    background-color: #f7efd7;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+	border-radius: 1em;
+}*/
+.presentation {
+	position: center;
+    width: auto;
+    height: auto;
+    font-size: 18;
+    background-color: #f7efd7;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+	 border-radius: 5em;
+}
+.parcours {
+	position: center;
+    width: auto;
+    height: auto;
+    font-size: 16;
+    background-color: #c0e2c9;
+    /*background-color: #f7efd7;*/
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+	/*border-radius: 1em;*/
+}
+.porque {
+	clear: left;
+    width: auto;
+    height: auto;
+    font-size: 17;
+    background-color: #f7efd7;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+	border-radius: 1em 1em 0 0;
+}
+.fantastic {
+	clear: left;
+    width: auto;
+    height: auto;
+    font-size: 18;
+    background-color: #f7efd7;
+    padding: 1% 1%;
+    margin: 0 auto 0;
+    list-style: none;
+    text-align: center;
+	border-radius: 0 0 1em 1em;
+}
+.jeunehobbit {
+	clear: left;
+    width: auto;
+    height: auto;
+    font-size: 18;
+    /*background-color: #e4d4b5;*/
+    background-color: #c9b7be;
+    padding: 1em;
+    margin: 0 auto 0;
+    list-style: none;
+    text-align: center;
+	border-radius: 1em;
+}
+.historique {
+	float: left;
+	width: 50%
+}
+.historique2 {
+	float: left;
+	width: 50%
+}
+
+#foot {
+	position: center;
+    padding-bottom: 0;
+    padding: 1px;
+    margin-bottom: 0;
+    width: auto;
+    height: auto;
+	text-decoration: none;
+    font-size: 14px;
+	font-family:Palatino Linotype, Palatino, serif;
+    background-color: #fc7650;
+    /*background-color: #e4d4b5;*/
+    list-style: none;
+    text-align: center;
+	/*border-radius: 1em;*/
+}
