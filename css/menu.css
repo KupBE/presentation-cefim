@@ -1,12 +1,11 @@
 /* menu.css
-
 */
 #top_menu {
 	position:fixed;
 	left: 0;
 	right: 0;
     top: 0;
-	 margin: 0;
+	margin: 0;
     width: 100%;
     height: auto;
     font-size: 16px;
@@ -72,7 +71,7 @@
     text-align: center;
 	border-radius: 1em;
 }*/
-.presentation {
+#presentation {
 	position: center;
     width: auto;
     height: auto;
@@ -82,9 +81,9 @@
     margin: 0;
     list-style: none;
     text-align: center;
-	 border-radius: 5em;
+	border-radius: 5em;
 }
-.parcours {
+#parcours {
 	position: center;
     width: auto;
     height: auto;
@@ -97,7 +96,7 @@
     text-align: center;
 	/*border-radius: 1em;*/
 }
-.porque {
+#porque {
 	clear: left;
     width: auto;
     height: auto;
@@ -109,7 +108,7 @@
     text-align: center;
 	border-radius: 1em 1em 0 0;
 }
-.fantastic {
+#fantastic {
 	clear: left;
     width: auto;
     height: auto;
@@ -121,7 +120,7 @@
     text-align: center;
 	border-radius: 0 0 1em 1em;
 }
-.jeunehobbit {
+#jeunehobbit {
 	clear: left;
     width: auto;
     height: auto;
@@ -143,6 +142,17 @@
 	width: 50%
 }
 
+/*bouton scrolltop*/
+#scroll_to_top {
+	position: absolute;
+	right: 5%;
+}
+/*
+#scroll_to_top:hover {
+	left: 100%;
+	transform: translateX(-100%);
+}*/
+/*pied de page*/
 #foot {
 	position: center;
     padding-bottom: 0;
